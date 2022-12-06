@@ -1,4 +1,4 @@
-module github.com/muesli/duf
+module github.com/seakingii/hduf
 
 go 1.15
 
