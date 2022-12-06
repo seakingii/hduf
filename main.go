@@ -163,7 +163,7 @@ func main() {
 	}
 
 	// read mount table
-	m, warnings, err := mounts()
+	m, warnings, err := Mounts()
 	if err != nil {
 		fmt.Fprintln(os.Stderr, err)
 		os.Exit(1)
@@ -307,7 +307,7 @@ func main() {
 	}
 
 	// print tables
-	renderTables(m, filters, TableOptions{
+	RenderTables(m, filters, TableOptions{
 		Columns: columns,
 		SortBy:  sortCol,
 		Style:   style,
