@@ -26,7 +26,7 @@ type FilterOptions struct {
 }
 
 // renderTables renders all tables.
-func renderTables(m []Mount, filters FilterOptions, opts TableOptions) {
+func RenderTables(m []Mount, filters FilterOptions, opts TableOptions) {
 	deviceMounts := make(map[string][]Mount)
 	hasOnlyDevices := len(filters.OnlyDevices) != 0
 
