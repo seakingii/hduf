@@ -11,7 +11,7 @@ func (m *Mount) Stat() unix.Statfs_t {
 	return m.Metadata.(unix.Statfs_t)
 }
 
-func mounts() ([]Mount, []string, error) {
+func Mounts() ([]Mount, []string, error) {
 	var ret []Mount
 	var warnings []string
 
