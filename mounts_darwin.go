@@ -1,7 +1,7 @@
 //go:build darwin
 // +build darwin
 
-package main
+package hduf
 
 import (
 	"golang.org/x/sys/unix"

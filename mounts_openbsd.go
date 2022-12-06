@@ -1,7 +1,7 @@
 //go:build openbsd
 // +build openbsd
 
-package main
+package hduf
 
 import (
 	"golang.org/x/sys/unix"
