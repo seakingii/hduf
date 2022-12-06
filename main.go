@@ -313,3 +313,22 @@ func main() {
 		Style:   style,
 	})
 }
+
+
+func SetWidth(w uint){
+	*width = w
+}
+
+func SetAnsiTheme(){
+	theme, _ = loadTheme("ansi")
+}
+
+
+func SetLightTheme(){
+	theme, _ = loadTheme("light")
+}
+
+
+func SetDarkTheme(){
+	theme, _ = loadTheme("dark")
+}
