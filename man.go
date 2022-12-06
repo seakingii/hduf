@@ -1,7 +1,7 @@
 //go:build mango
 // +build mango
 
-package main
+package hduf
 
 import (
 	"flag"
