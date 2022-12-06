@@ -254,7 +254,7 @@ func appendLogicalDrives(mounts []Mount, warnings []string) ([]Mount, []string) 
 	return mounts, warnings
 }
 
-func mounts() (ret []Mount, warnings []string, err error) {
+func Mounts() (ret []Mount, warnings []string, err error) {
 	ret = make([]Mount, 0)
 
 	// Local devices
